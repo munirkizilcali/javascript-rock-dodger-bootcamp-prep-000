@@ -135,9 +135,12 @@ function endGame() {
   clearInterval(gameInterval) 
   window.removeEventListener('keydown', moveDodger)
   alert(`YOU LOSE!`)
-  for (let p in ROCKS) {
-    if  (ROCKS[p].parentNode !== null) {
-      GAME.removeChild(ROCKS[p])
+  //for (let p in ROCKS) {
+    //if  (ROCKS[p].parentNode !== null) {
+    //  GAME.removeChild(ROCKS[p])
+    //}
+    ROCKS.forEach() {
+      
     }
   }
   ROCKS.length = 0
