@@ -105,6 +105,7 @@ function createRock(x) {
      * we should remove the rock from the DOM
      */
       GAME.removeChild(rock)
+      ROCKS.shift()
      }
   }
 
