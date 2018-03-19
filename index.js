@@ -100,7 +100,7 @@ function createRock(x) {
      * we should remove the rock from the DOM
      */
      if (rock.style.top >= 380) {
-      GAME.removeChild(rock)
+      document.removeChild(rock)
      }
   }
 
