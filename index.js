@@ -139,9 +139,9 @@ function endGame() {
     //if  (ROCKS[p].parentNode !== null) {
     //  GAME.removeChild(ROCKS[p])
     //}
-    ROCKS.forEach() {
-      
-    }
+    ROCKS.forEach(function(rock) {
+      rock.remove()
+    })
   }
   ROCKS.length = 0
 
