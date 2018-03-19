@@ -69,7 +69,8 @@ function createRock(x) {
   rock.style.top = top
 
   GAME.appendChild(rock)
-  
+  ROCKS.push(rock)
+
   
   /**
    * Now that we have a rock, we'll need to append
@@ -115,7 +116,6 @@ function createRock(x) {
   
   
   moveRock()
-  ROCKS.push(rock)
   // Add the rock to ROCKS so that we can remove all rocks
   // when there's a collision
   
