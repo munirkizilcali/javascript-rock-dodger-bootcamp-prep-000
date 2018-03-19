@@ -98,7 +98,8 @@ function createRock(x) {
      * the GAME, we want to move it again.
      */
     else if (parseInt(rock.style.top) < 378) {
-    window.requestAnimationFrame(moveRock)
+    var requestID = window.requestAnimationFrame(moveRock)
+    console.log(requestID)
      } else {
     /**
      * But if the rock *has* reached the bottom of the GAME,
