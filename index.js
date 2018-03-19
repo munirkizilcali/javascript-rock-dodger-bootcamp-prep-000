@@ -91,6 +91,7 @@ function createRock(x) {
      */
     if (checkCollision(rock)) {
       endGame()
+      window.cancelAnimationFrame(requestID)
       return rock
     }
     /**
@@ -99,7 +100,7 @@ function createRock(x) {
      */
     else if (parseInt(rock.style.top) < 378) {
     var requestID = window.requestAnimationFrame(moveRock)
-    console.log(requestID)
+    
      } else {
     /**
      * But if the rock *has* reached the bottom of the GAME,
