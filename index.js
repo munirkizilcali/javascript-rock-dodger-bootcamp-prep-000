@@ -140,6 +140,7 @@ function endGame() {
       GAME.removeChild(ROCKS[p])
     }
   }
+  ROCKS.length = 0
 
 }
 
