@@ -111,9 +111,9 @@ function createRock(x) {
 
   // We should kick of the animation of the rock around here
   
-  ROCKS.push(rock)
-  moveRock()
   
+  moveRock()
+  ROCKS.push(rock)
   // Add the rock to ROCKS so that we can remove all rocks
   // when there's a collision
   
