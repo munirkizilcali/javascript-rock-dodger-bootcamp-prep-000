@@ -104,7 +104,7 @@ function createRock(x) {
      * But if the rock *has* reached the bottom of the GAME,
      * we should remove the rock from the DOM
      */
-     if (rock.parentNode) {
+     if (rock.parentNode === GAME) {
       GAME.removeChild(rock)
      }
      }
