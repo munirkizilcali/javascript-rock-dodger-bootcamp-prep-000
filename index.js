@@ -107,7 +107,6 @@ function createRock(x) {
      if (GAME.hasDescendant(rock)) {
       GAME.removeChild(rock)
      }
-      ROCKS.shift()
      }
   }
 
